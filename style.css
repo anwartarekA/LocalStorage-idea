@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    width: 400px;
+    background-color: #eee;
+    margin:50px auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+ul li{
+    opacity: 0.2;
+    transition: 1s;
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+}
+ul li.active,
+ul li:hover{
+    opacity: 1;
+}
+ul li:first-child{
+    background-color: red;
+}
+ul li:nth-child(2){
+    background-color: black;
+}
+ul li:nth-child(3){
+    background-color:green;
+}
+ul li:last-child{
+    background-color: blue;
+}
+div{
+    width: 500px;
+    height: 200px;
+    background-color: red;
+    margin: auto;
+}
